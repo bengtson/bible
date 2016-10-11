@@ -49,6 +49,22 @@ defmodule Bible.ReadServer do
     GenServer.call(BibleReadServer, :readings)
   end
 
+  def clear do
+    GenServer.call(BibleReadServer, :clear)
+  end
+
+  @doc """
+  Loads the specified readings file into the reading server. The format of the
+  reading file is provided in the module documentation.
+  """
+  def load_readings_file(filepath) do
+    GenServer.call(BibleReadServer, {:load_file, filepath})
+  end
+
+  def load_readings(reading_string) do
+    GenServer.call(BibleReadServer, {:load_string, reading_string})
+  end
+
   @doc """
   Given a start and end date (inclusive) this returns all the readings that fall in the provided range.
   """
@@ -63,10 +79,36 @@ defmodule Bible.ReadServer do
     GenServer.call(BibleReadServer, {:metrics, readings, reference})
   end
 
+  def handle_call(:clear, _from, _state) do
+    state = %{ "Readings" => <<>>,
+               "Total Verses" => get_total_verses }
+    {:reply, :ok, state}
+  end
+
   # Retrieves the Bible metadata table.
   def handle_call(:readings, _from, state) do
     {:reply, state["Readings"], state}
   end
+
+  # Loads the specified readings file into the read server.
+  def handle_call({:load_file, filepath}, _from, _state) do
+    readings = load_file(filepath)
+    total_verses = get_total_verses
+    state = %{ "Readings" => readings,
+               "Total Verses" => total_verses }
+    {:reply, :ok, state}
+  end
+
+  # Loads the specified readings string into the read server.
+  def handle_call({:load_string, reading_string}, _from, _state) do
+    readings = load(reading_string)
+    total_verses = get_total_verses
+    state = %{ "Readings" => readings,
+               "Total Verses" => total_verses }
+    {:reply, :ok, state}
+  end
+
+
 
   def handle_call({:readings, start_date, end_date}, _from, state) do
     readings = get_readings_between(state["Readings"], start_date, end_date, state)
@@ -134,65 +176,54 @@ defmodule Bible.ReadServer do
 
   def load_bible_readings do
     File.read!(Application.fetch_env!(:bible, :bible_readings_file))
+      |> load
+  end
+
+  def load_file(filepath) do
+    File.read!(filepath)
+      |> load
+  end
+
+  def load(reads) do
+    reads
       |> String.split("\n")               # Get list of lines.
-      |> Enum.drop_while(&(&1 == ""))             # Remove leading empty lines.
-      |> Enum.reverse
-      |> Enum.drop_while(&(&1 == ""))             # Remove trailing empty lines.
-      |> Enum.reverse
-      |> Enum.map(&(String.split &1, " :: "))     # Split each kv pair.
-      |> Enum.map(&(set_atom(&1)))                # Set key, value into map.
-      |> Enum.chunk_by(&(&1 == %{:delim => 0}))   # Group by record.
-      |> Enum.filter(&(&1 != [%{:delim => 0}]))   # Remove delimiters.
-      |> Enum.map(&(maps_to_map(&1)))             # Combine records maps.
+      |> Enum.filter(&(String.length(&1) > 0))
+      |> Enum.map(&(String.split(&1," : ", parts: 2)))    # Have date and ref.
       |> Enum.map(&(add_ref_days(&1)))            # Add reference into entry.
-      |> Enum.sort(&(&1["Days"] < &2["Days"]))
-      |> Enum.map(&(gen_binary(&1)))
-      |> Enum.reduce(<<>>, fn (bin, acc) -> merge_binary(acc, bin) end)
+      |> Enum.sort(&(&1["Days"] <= &2["Days"]))
+      |> Enum.map( fn map -> map["Readings"] end)
+      |> Enum.join
   end
 
-  defp merge_binary(acc, bin) do
-    acc <> bin
+
+  # Change to accept a multi-reference line after date.
+  # Need an entry in the map called Refs that is a list of maps for each
+  # individual ref.
+  defp add_ref_days ([string_date,reading]) do
+    string_date = String.trim(string_date)
+    { :ok, date } = Timex.parse(string_date, "{D}-{Mshort}-{YYYY}")
+    epoch_date = Timex.to_date {2000,1,1}
+    days = Timex.diff(date,epoch_date,:days)
+    refs = Bible.References.exp_bible_references(reading)
+    newrefs = refs
+      |> Enum.map(&(add_book_number(&1,days)))
+      |> Enum.join
+    %{"Days" => days, "Readings" => newrefs}
   end
 
-  defp gen_binary (record) do
-    ref = record["Ref"]
+  defp add_book_number(ref,days) do
+    start_book_number = Bible.Server.get_book_number(ref["Start Book"],:in_bible)
+    end_book_number = Bible.Server.get_book_number(ref["End Book"],:in_bible)
+
     <<
-      record["Days"] :: unsigned-integer-size(16),
-      record["Start Book Number"] :: unsigned-integer-size(8),
+      days :: unsigned-integer-size(16),
+      start_book_number :: unsigned-integer-size(8),
       ref["Start Chapter"] :: unsigned-integer-size(8),
       ref["Start Verse"] :: unsigned-integer-size(8),
-      record["End Book Number"] :: unsigned-integer-size(8),
+      end_book_number :: unsigned-integer-size(8),
       ref["End Chapter"] :: unsigned-integer-size(8),
       ref["End Verse"] :: unsigned-integer-size(8)
     >>
-  end
-
-  # Change to accept a multi-reference line after date.
-  defp add_ref_days (record) do
-    string_date = record["Date"]
-    { :ok, date } = Timex.parse(string_date, "{D}-{Mshort}-{YYYY}")
-#    epoch_date = Date.from({{2000, 1, 1}, {0, 0, 0}})
-    epoch_date = Timex.to_date {2000,1,1}
-    days = Timex.diff(date,epoch_date,:days)
-    reading = record["Reading"]
-    ref = Bible.References.exp_bible_reference(reading)
-    start_book_number = Bible.Server.get_book_number(ref["Start Book"],:in_bible)
-    end_book_number = Bible.Server.get_book_number(ref["End Book"],:in_bible)
-    Map.merge(record,%{"Ref" => ref, "Days" => days, "Start Book Number" => start_book_number, "End Book Number" => end_book_number})
-  end
-
-  defp set_atom (pair) do
-    case pair do
-      [a, b] ->
-        %{String.strip a => String.strip b}
-      _ ->
-        %{:delim => 0}
-    end
-  end
-
-  defp maps_to_map (list) do
-    list
-      |> Enum.reduce(%{}, fn (map, acc) -> Map.merge(acc, map) end)
   end
 
   defp get_total_verses do

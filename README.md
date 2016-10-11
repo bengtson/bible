@@ -48,18 +48,19 @@ is the info about the book in a binary as follows:
     byte 4 : Number of chapters in the book.
     byte 5..n : Number of verses starting with chapter 1. Each is a byte.
 
-## To Do
-  Put bible into git.
-  Add reference validation,
-  Add reference equality
-  Add reference negation
-  Make all exp references work with multiple citations, or just 1.
-  Change Read List to be 03-Oct-2015 : John 1-4, Matthew 5-6
-  Add function to clear the ReadServer.
-  Add function to add a reading to the ReadServer (no file).
-  Update testing with valid asserts
-  Add calls that accept list of reference structures where appropriate.
-- ...
+## To Do  
+- Add reference validation,
+- Add reference equality
+- Add reference negation
+- Make all exp references work with multiple citations, or just 1.
+- Update testing with valid asserts
+- Add calls that accept list of reference structures where appropriate.
+
+## Done
+Readings can now be loaded from a file or with a provided string.
+Added 'clear' function to ReadServer to clear the loaded readings.
+Reading lists now have the dd-mmm-yyyy : reference format.
+Reading lists now allow multi-references to be specified after the date.
 
 ## How Timex, Elixir Date work
 Timex.now returns
