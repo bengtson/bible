@@ -36,16 +36,16 @@ defmodule Bible do
     Bible.Server.is_book?(book)
   end
 
-  def reference_verses(references) do
-    Bible.ReadServer.reading_metrics(references)
+  def reference_verses(pid,references) do
+    Bible.ReadServer.reading_metrics(pid,references)
   end
 
   def start( _type, _args ) do
     import Supervisor.Spec, warn: false
 
     children = [
-      supervisor(Bible.Server, []),
-      supervisor(Bible.ReadServer, [])
+      supervisor(Bible.Server, [Bible.Versions.ESV]),
+#      supervisor(Bible.ReadServer, [])
     ]
 
     opts = [strategy: :one_for_one, name: Bible.Supervisor]

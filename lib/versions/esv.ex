@@ -16,10 +16,14 @@ Where:  'T' is either "O" or "N" for old or new testament book.
 Leading and trailing spaces are ignored as well as blank lines.
 """
 
+  def get_version do
+    :esv
+  end
+
 @doc """
 Returns the data for the ESV version of the Bible.
 """
-  def get_version do
+  def get_version_data do
     """
       O 01 01 050 Genesis
       031 025 024 026 032 022 024 022 029 032 032 020 018 024 021

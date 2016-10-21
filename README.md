@@ -27,6 +27,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:bible_metrics]]
     end
     ```
+
 ## Usage
 
   ```elixir
@@ -49,6 +50,12 @@ is the info about the book in a binary as follows:
     byte 5..n : Number of verses starting with chapter 1. Each is a byte.
 
 ## To Do  
+  Allow multiple Bible Servers which can be referenced by the version name.
+  Fix reference expansion to proper list John 3:5, John 3:7 as John 3:5,7. To do this, the reference needs to be generated as a bitmap and then expansion done. This will give the references in the correct order as well. Maybe this is called 'normalization' and is a special call.
+
+  Thinking space here: Can John 3:5,7 be expanded to John 3:5; John 3:7 prior to generating the references. When a comma is found, collect from start of the reference to comma, less one level and place that at start of what's after the comma. Should change the expansion machine to handle lists of references. Need to add an accumulator list, then absorb the ',' and the ';' into the machine.
+
+- Fix references for "," and ";". Missed this.
 - Add reference validation,
 - Add reference equality
 - Add reference negation
@@ -56,22 +63,16 @@ is the info about the book in a binary as follows:
 - Update testing with valid asserts
 - Add calls that accept list of reference structures where appropriate.
 
-## Done
-Readings can now be loaded from a file or with a provided string.
-Added 'clear' function to ReadServer to clear the loaded readings.
-Reading lists now have the dd-mmm-yyyy : reference format.
-Reading lists now allow multi-references to be specified after the date.
+## Done - Git Comments Here
+ReadServer is no longer a GenServer but simply a module.
+Added the MIT license.
 
-## How Timex, Elixir Date work
-Timex.now returns
-#<DateTime(2016-10-04T16:03:05.793161Z Etc/UTC)>
-This is a DateTime map with types such as hour
-a = Timex.now
-%{:hour => hour } = a
-hour
-returns the hour of the day.
+## Road Map
+Integrate Bible reading tracking into a website for users. Users ID is provided by the system and is the only information requested from the user except for what they read. No reason for saving confidential information. Unused accounts can be deleted after xx days. Codes could be like apple-wood-home. Users could select a code by pressing next to get a new one.
 
-Strange that
-Calendar.minute(Timex.now)
-Timex.now.day
-Returns the day.
+## Bible Reading Plans
+https://en.m.wikipedia.org/wiki/Bible_citation
+http://www.biblica.com/en-us/bible/reading-plans/
+http://www.alextran.org/23-bible-reading-plans-that-will-satisfy-anyone/
+http://www.challies.com/sites/all/files/attachments/professor-grant-horners-bible-reading-system.pdf
+https://www.backtothebible.org/one-year-reading-plans

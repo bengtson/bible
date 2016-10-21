@@ -50,7 +50,7 @@ defmodule ReferencesTest do
   end
 
   test "Check List of References" do
-    refs = "John 1-3,Genesis 22"
+    refs = "John 1-3; Genesis 22"
     r = Bible.References.exp_bible_references(refs)
     s = Bible.References.reduce_references(r)
     assert refs == s

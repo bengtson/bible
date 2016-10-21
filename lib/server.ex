@@ -16,8 +16,8 @@ defmodule Bible.Server do
   @doc """
   Starts the GenServer.
   """
-  def start_link do
-    {:ok, _} = GenServer.start_link(__MODULE__, :ok, [name: BibleServer])
+  def start_link(version) do
+    {:ok, _} = GenServer.start_link(__MODULE__, version, [name: BibleServer])
   end
 
   @doc """
@@ -29,8 +29,8 @@ defmodule Bible.Server do
   bible_metadata : This is the map described above.
   verse_counter : Used to count all verses in the bible. Each book gets starting and ending verses set in the metadata.
   """
-  def init (:ok) do
-    metadata = new_load_metadata
+  def init (version) do
+    { version_name, metadata } = new_load_metadata
 #    metadata = load_bible_metadata
 
     book_number_map = gen_book_number_map(metadata)
@@ -42,9 +42,13 @@ defmodule Bible.Server do
     verse_count_map = add_starting_verse(1,book_number_map,verse_count_map,[],1)
       |> Enum.reduce(%{}, fn (map, acc) -> Map.merge(acc, map) end)
 
-    state = %{ "Metadata" => metadata,
-               "Book Number Map" => book_number_map,
-               "Verse Count Map" => verse_count_map}
+    %{ "Start Verse" => start_verse, "Verse Count" => verse_count} = verse_count_map["Revelation"]
+
+      state = %{ "Metadata" => metadata,
+                 "Book Number Map" => book_number_map,
+                 "Verse Count Map" => verse_count_map,
+                 "Total Verses" => start_verse + verse_count}
+
     {:ok, state}
   end
 
@@ -69,6 +73,9 @@ defmodule Bible.Server do
     GenServer.call(BibleServer, {:verse_count, book, chapter})
   end
 
+  def get_total_verses do
+    GenServer.call(BibleServer, :total_verses)
+  end
   @doc """
   Returns a list of all the books in the bible. These are not ordered in any particular way.
   """
@@ -94,6 +101,10 @@ defmodule Bible.Server do
 
   def get_ref_verse_range(reference) do
     GenServer.call(BibleServer, {:verse_range, reference})
+  end
+
+  def handle_call(:total_verses, _from, state) do
+    {:reply, state["Total Verses"], state}
   end
 
   # Retrieves the chapter count for the specified book.
@@ -156,6 +167,11 @@ defmodule Bible.Server do
   end
 
   def handle_call({:verse_range, ref}, _from, state) do
+    range = p_get_ref_verse_range(ref,state)
+    {:reply, range, state}
+  end
+
+  defp p_get_ref_verse_range(ref,state) do
     book = ref["Start Book"]
     chapter = ref["Start Chapter"]
     verse = ref["Start Verse"]
@@ -164,7 +180,8 @@ defmodule Bible.Server do
     chapter = ref["End Chapter"]
     verse = ref["End Verse"]
     end_verse = get_verse_index(state, book, chapter, verse)
-    {:reply, {start_verse,end_verse}, state}
+    {start_verse,end_verse}
+
   end
 
 
@@ -209,7 +226,8 @@ defmodule Bible.Server do
   end
 
   defp new_load_metadata do
-    Bible.Versions.ESV.get_version
+    version = Bible.Versions.ESV.get_version
+    metadata = Bible.Versions.ESV.get_version_data
       |> String.split("\n")
       |> Enum.map(&(String.trim(&1)))
       |> Enum.drop_while(&(&1 == ""))             # Remove leading empty lines.
@@ -220,7 +238,7 @@ defmodule Bible.Server do
       |> Enum.chunk(2)
       |> Enum.map(&(gen_book_metadata(&1)))
       |> Enum.reduce(%{}, fn (map, acc) -> Map.merge(acc, map) end)
-#      |> IO.inspect
+    { version, metadata }
   end
 
   defp gen_book_metadata(book_entry) do

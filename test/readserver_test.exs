@@ -8,40 +8,52 @@ defmodule Read.Server.Test do
     {:ok, metadata: metadata}
   end
 
-  test "String Reading Load" do
-    read = """
-02-Oct-2016 : John 1-3
-    """
-    Bible.ReadServer.load_readings(read)
+  test "New Readings Module Test" do
+    read =
+        """
+          02-Oct-2016 : John 1-3
+          03-Oct-2016 : John 4:5-8
+        """
+
     start_date = Timex.to_date {2016, 1, 1}
     end_date = Timex.to_date {2016, 12, 31}
-    readings = Bible.ReadServer.get_readings(start_date,end_date)
-    verses_read = for(<< bit::size(1) <- readings >>, do: bit) |> Enum.sum
-    assert 112 == verses_read
+
+    verse_count = Bible.ReadServer.load_readings_string(read)
+    |> Bible.ReadServer.filter_by_date({start_date,end_date})
+    |> Bible.ReadServer.to_verse_map
+    |> Bible.ReadServer.verse_count
+    assert 116 == verse_count
   end
 
   test "Check Setting Of Readings" do
-    start_date = Timex.to_date {2016, 1, 1}
-    end_date = Timex.to_date {2016, 12, 31}
-    readings = Bible.ReadServer.get_readings(start_date,end_date)
-    verses_read = for(<< bit::size(1) <- readings >>, do: bit) |> Enum.sum
-#    IO.puts "Readings"
-#    IO.inspect readings
-#    IO.puts "Verses Read #{verses_read}"
-#    IO.inspect verses_read
-    assert 1 == 1
+    read =
+        """
+          02-Oct-2016 : John 1-3
+          03-Oct-2016 : John 4:5-8
+        """
+
+    start_date = Timex.to_date {2016, 10, 2}
+    end_date = Timex.to_date {2016, 10, 2}
+
+    verse_count = Bible.ReadServer.load_readings_string(read)
+    |> Bible.ReadServer.filter_by_date({start_date,end_date})
+    |> Bible.ReadServer.to_verse_map
+    |> Bible.ReadServer.verse_count
+    assert 112 == verse_count
   end
 
   test "Reading Metrics" do
-    start_date = Timex.to_date {2016,1,1}
-    end_date = Timex.to_date {2016, 12, 31}
-    readings = Bible.ReadServer.get_readings(start_date,end_date)
-    {total, read} = Bible.ReadServer.reading_metrics(readings, "John")
-#    IO.inspect total
-#    IO.inspect read
-    percent = read / total
-#    IO.puts "Percent of John Read = #{percent}"
-    assert 1 == 1
+
+    read =
+    """
+      02-Oct-2016 : John 1-3
+    """
+
+    assert {879, 112} ==
+      Bible.ReadServer.load_readings_string(read)
+      |> Bible.ReadServer.to_verse_map
+      |> Bible.ReadServer.reading_metrics("John")
+
   end
 
 end

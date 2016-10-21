@@ -13,7 +13,7 @@ defmodule Bible.References do
 
     John 7:3,2:9-11
     John 14:16-17,25-36
-    Mark, Luke 5,6:12-15, Revelation 2
+    Mark; Luke 5,6:12-15; Revelation 2
 
     21-Sep-2016 : Thoughts on parsing from the Polynesian Resort ...
 
@@ -104,7 +104,7 @@ defmodule Bible.References do
     """
     def exp_bible_references(ref_strings) do
       ref_strings
-        |> String.split(",")
+        |> String.split(";")
         |> Enum.map(&(exp_bible_reference(&1)))
 #        |> IO.inspect
     end
@@ -115,6 +115,7 @@ defmodule Bible.References do
     """
     def exp_bible_reference(ref_string) do
       parts = ref_string
+      |> String.replace(",", " , ")
       |> String.replace("-", " - ")
       |> String.replace(":", " : ")
       |> String.replace("  ", " ")
@@ -126,8 +127,12 @@ defmodule Bible.References do
                           {parts,ref_string})
     end
 
-    # Fetches the next part in the bible reference and dispatches to the
-    # function that can handle the part.
+    # -----------------------------
+    # exp_bible_next_part : called after each exp_bible_machine state to
+    # get the next part in the list of parts.
+
+    # If the list of parts is empty, then reference is complete. Generate the
+    # map and return it.
     defp exp_bible_next_part({a,b,c,d,e,f},_,{[],_}) do
       %{ "Start Book" => a,
          "Start Chapter" => b,
@@ -136,6 +141,9 @@ defmodule Bible.References do
          "End Chapter" => e,
          "End Verse" => f }
     end
+
+    # Get the next part in the list and call the state machine with the next
+    # part and current state.
     defp exp_bible_next_part({a,b,c,d,e,f},{lev,ran},{parts,ref}) do
       { part, value, new_parts } = parts_type(parts)
       exp_bible_machine({a,b,c,d,e,f},{lev,ran},{part,value},{new_parts,ref})
@@ -149,6 +157,8 @@ defmodule Bible.References do
       exp_bible_next_part({value,1,1,value,chapter_count,verse_count},
                           {:book,:start},state)
     end
+
+    # -----------------------------
 
     # If the next part is a book and the range is :end, set the end to the
     # end of the specified book.
@@ -294,7 +304,7 @@ defmodule Bible.References do
     def reduce_references(refs) do
       refs
         |> Enum.map(&(reduce_reference(&1)))
-        |> Enum.join(",")
+        |> Enum.join("; ")
     end
 
     def reduce_reference({a,b,c,d,e,f}) do
