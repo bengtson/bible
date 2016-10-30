@@ -421,4 +421,10 @@ defmodule Bible.References do
       |> Enum.filter(&(&1 != cycle_reference(&1)))
     end
 
+    @doc """
+    Given a reference map, a verse map is returned.
+    """
+    def to_verse_map reference do
+      
+    end
 end

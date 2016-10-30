@@ -16,7 +16,7 @@ defmodule Bible.Mixfile do
   def application do
     [
       mod: {Bible, []},
-      applications: [:logger, :tzdata]
+      applications: [:logger, :tzdata, :fonts]
     ]
   end
 
@@ -32,6 +32,7 @@ defmodule Bible.Mixfile do
   defp deps do
     [{:timex, "~> 3.0.8"},
      {:earmark, "~> 1.0"},
-     {:ex_doc, "~> 0.14.1"}]
+     {:ex_doc, "~> 0.14.1"},
+     {:fonts, github: "bengtson/fonts"}]
   end
 end

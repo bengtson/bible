@@ -44,7 +44,7 @@ defmodule Bible do
     import Supervisor.Spec, warn: false
 
     children = [
-      supervisor(Bible.Server, [Bible.Versions.ESV]),
+      supervisor(Bible.Server, [Bible.Versions.ESV])
 #      supervisor(Bible.ReadServer, [])
     ]
 

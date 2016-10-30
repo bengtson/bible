@@ -83,6 +83,11 @@ defmodule Bible.Server do
     GenServer.call(BibleServer, :books)
   end
 
+  def get_book_count do
+    GenServer.call(BibleServer, :books)
+      |> Enum.count
+  end
+
   @doc """
   Returns true of false based on whether specified string is a book in the
   Bible.

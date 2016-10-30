@@ -50,6 +50,9 @@ is the info about the book in a binary as follows:
     byte 5..n : Number of verses starting with chapter 1. Each is a byte.
 
 ## To Do  
+
+- Write SVG layout code for the read_map.
+
   Allow multiple Bible Servers which can be referenced by the version name.
   Fix reference expansion to proper list John 3:5, John 3:7 as John 3:5,7. To do this, the reference needs to be generated as a bitmap and then expansion done. This will give the references in the correct order as well. Maybe this is called 'normalization' and is a special call.
 
