@@ -69,6 +69,7 @@ is the info about the book in a binary as follows:
 ## Done - Git Comments Here
 ReadServer is no longer a GenServer but simply a module.
 Added the MIT license.
+Working on 'read_map' SVG generation.
 
 ## Road Map
 Integrate Bible reading tracking into a website for users. Users ID is provided by the system and is the only information requested from the user except for what they read. No reason for saving confidential information. Unused accounts can be deleted after xx days. Codes could be like apple-wood-home. Users could select a code by pressing next to get a new one.

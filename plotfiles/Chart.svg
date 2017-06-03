@@ -5,12 +5,3839 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800">
 
-    <text x="10" y="15" font-family="Open Sans"  font-weight="lighter" font-style="regular" font-size="14.0">
+    <text x="4.0" y="15" font-family="Source Sans Pro"  font-weight="lighter" font-style="regular" font-size="14.0">
     Bible Reading Map
     </text>
     
-    <text x="10" y="35" font-family="Open Sans"  font-weight="lighter" font-style="regular" font-size="12.0">
+    <text x="13.169999999999998" y="30.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
     Genesis
     </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="598.67" y="30.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Exodus
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="26.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="284.64" y="42.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Leviticus
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="623.75" y="42.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Numbers
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="38.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="275.21" y="54.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Deuteronomy
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="718.86" y="54.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Joshua
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="50.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="224.34" y="66.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Judges
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="498.72" y="66.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Ruth
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="568.32" y="66.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    1 Samuel
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="62.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="160.87" y="78.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    2 Samuel
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="467.02" y="78.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    1 Kings
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="741.57" y="78.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    2 Kings
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="74.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="259.34000000000003" y="90.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    1 Chronicles
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="632.89" y="90.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    2 Chronicles
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="86.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="291.67" y="102.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Ezra
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="432.03" y="102.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Nehemiah
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="624.42" y="102.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Esther
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="98.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="7.029999999999999" y="114.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Job
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="488.85" y="114.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Psalms
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="110.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="122.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="592.08" y="138.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Proverbs
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="134.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="183.31" y="150.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Ecclesiastes
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="370.78999999999996" y="150.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Song of Solomon
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="538.01" y="150.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Isaiah
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="146.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="501.31" y="162.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Jeremiah
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="158.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="329.84000000000003" y="174.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Lamentations
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="445.87" y="174.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Ezekiel
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="170.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="217.15" y="186.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Daniel
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="382.4" y="186.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Hosea
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="566.27" y="186.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Joel
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="637.33" y="186.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Amos
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="182.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="9.630000000000003" y="198.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Obadiah
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="62.879999999999995" y="198.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Jonah
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="141.9" y="198.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Micah
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="256.97" y="198.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Nahum
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="333.99" y="198.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Habakkuk
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="418.73" y="198.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Zephaniah
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="500.61" y="198.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Haggai
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="564.83" y="198.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Zechariah
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="194.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="13.540000000000003" y="210.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Malachi
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="206.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="206.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="206.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="86.75999999999999" y="222.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Matthew
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="425.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="443.15" y="222.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Mark
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="652.58" y="222.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Luke
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="218.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="155.87" y="234.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    John
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="412.19" y="234.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Acts
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="436.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="447.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="623.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="634.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="645.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="733.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="748.58" y="234.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Romans
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="230.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="178.31" y="246.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    1 Corinthians
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="260.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="271.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="419.86" y="246.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    2 Corinthians
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="502.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="513.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <text x="622.06" y="246.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Galations
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="711.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="722.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="740.62" y="246.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Ephesians
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="242.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="65.67" y="258.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Philippians
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="166.12" y="258.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Colossians
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="249.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="266.0" y="258.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    1 Thessalonians
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="337.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="348.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="359.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="397.55" y="258.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    2 Thessalonians
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="491.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="499.37" y="258.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    1 Timothy
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="579.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="590.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="601.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="619.92" y="258.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    2 Timothy
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="667.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="678.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="689.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="717.34" y="258.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Titus
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="744.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="755.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="254.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="5.869999999999997" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Philemon
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="64.45" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Hebrews
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="216.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="227.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="238.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="248.82999999999998" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    James
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="282.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="293.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="304.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="315.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="326.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="335.6" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    1 Peter
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="370.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="381.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="392.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="403.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="414.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="423.15" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    2 Peter
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="458.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="469.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="480.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="490.56" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    1 John
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="524.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="535.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="546.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="557.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="568.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="578.11" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    2 John
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="612.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="622.01" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    3 John
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="656.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="673.26" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Jude
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="700.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="1.0" />
+    
+    <text x="716.97" y="270.0" font-family="Source Sans Pro" font-weight="lighter" font-style="regular" font-size="10.0">
+    Revelation
+    </text>
+    
+    <!-- Chapter Marker -->
+    <circle cx="766.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="777.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="788.5" cy="266.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="7.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="18.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="29.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="40.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="51.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="62.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="73.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="84.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="95.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="106.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="117.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="128.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="139.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="150.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="161.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="172.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="183.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="194.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
+    
+    <!-- Chapter Marker -->
+    <circle cx="205.5" cy="278.5" r="3.5" stroke="black" stroke-width="0.2" fill="black" fill-opacity="0.0" />
     
 </svg>
