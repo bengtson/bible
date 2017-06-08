@@ -1,7 +1,6 @@
-defmodule Server.Test do
+defmodule Info.Test do
   use ExUnit.Case
   use Timex
-  doctest Bible.Server
 
   setup_all do
     info = Bible.Info.get_bible_info "Z"
@@ -31,7 +30,7 @@ defmodule Server.Test do
   end
 
   test "Reference Verse Range", state do
-    ref = Bible.References.exp_bible_reference("Matthew 1:1 - Mark 1:1")
+    ref = Bible.References.exp_bible_reference("Matthew 1:1 - Mark 1:1", state.info)
     range = Bible.Info.get_reference_range(state.info,ref)
     assert {23208, 24279} = range
   end

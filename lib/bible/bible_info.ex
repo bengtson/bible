@@ -6,7 +6,7 @@ defmodule Bible.Info do
   Bible.Info module.
   """
   def get_bible_info version do
-    { version_name, metadata } = new_load_metadata
+    { _version_name, metadata } = new_load_metadata()
 
     book_number_map = gen_book_number_map(metadata)
       |> Enum.reduce(%{}, fn (map, acc) -> Map.merge(acc, map) end)
@@ -30,6 +30,10 @@ defmodule Bible.Info do
     |> Map.keys
   end
 
+  def is_book?(book, info) do
+    Map.has_key?(info["Metadata"],book)
+  end
+
   def get_reference_range(info, {a,b,c,d,e,f}) do
     book_number_map = info["Book Number Map"]
     book = book_number_map[a]
@@ -49,6 +53,10 @@ defmodule Bible.Info do
     verse = ref["End Verse"]
     end_verse = get_verse_index(info, book, chapter, verse)
     {start_verse,end_verse}
+  end
+
+  def get_book_name info, book_number do
+    info["Book Number Map"][book_number]
   end
 
   def get_total_verse_count(info) do
@@ -142,7 +150,7 @@ defmodule Bible.Info do
 
   defp get_verses_in_book(book_map) do
     { book, book_binary } = book_map
-    << header :: binary-size(4),
+    << _header :: binary-size(4),
        verse_list :: binary >> = book_binary
     %{ book => for(<<byte::8 <- verse_list >>, do: byte) |> Enum.sum }
   end
@@ -185,12 +193,26 @@ defmodule Bible.Info do
     {book_name, info_binary}
   end
 
+  def get_book_number(info, book, option) do
+    <<
+      _testament :: binary-size(1),
+      number :: unsigned-integer-size(8),
+      num_in_bible :: unsigned-integer-size(8),
+      _ :: binary
+    >> = info["Metadata"][book]
+    case option do
+      :in_bible -> num_in_bible
+      :in_testament -> number
+      _ -> number
+    end
+  end
+
   defp get_verse_index(info, book, chapter, verse) do
 #    IO.inspect {:index, info, book, chapter, verse}
     verse_count_map = info["Verse Count Map"]
     metadata = info["Metadata"]
     chaps = chapter-1
-    << header :: binary-size(4),
+    << _header :: binary-size(4),
        verse_list :: binary-size(chaps),
        _ :: binary >> = metadata[book]
 
@@ -198,7 +220,7 @@ defmodule Bible.Info do
 
     verses_in_prior_chapters = for(<<byte::8 <- verse_list >>, do: byte)
       |> Enum.sum
-    verse_sum = verse_start + verses_in_prior_chapters + verse - 1
+    verse_start + verses_in_prior_chapters + verse - 1
   end
 
 

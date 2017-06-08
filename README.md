@@ -11,17 +11,15 @@ The Bible Metrics (bible_metrics) application provides functions related to the 
 ## Git Comments
 Development Snapshot
 
-Changed fixed path for SVG chart to relative.
+Removed all SVG read map generation code.
 Changed Bible.Server to Bible.Info and dropped GenServer.
 Changed Bible.ReadServer to Bible.Reader and it's not a server.
 Restructured modules into a better folder structure.
 
 ## Todo
 
-- Remove the GenServer for bible. Just return a bible_info map that the user can track themselves.
-- Fix 'bible' so SVG can be generated and retrieved without generating a file.
-- Remove all SVG stuff from the Bible library.
-- Remove Timex from library. Parsing is only issue.
+-- Remove Timex from library. Parsing is only issue.
+- info as argument inconsistent ... sometimes first, sometimes last in argument list.
 
 ## Installation
 
@@ -35,14 +33,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
     end
     ```
 
-  2. Ensure `bible_metrics` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:bible_metrics]]
-    end
-    ```
-
+  2
 ## Usage
 
   ```elixir
@@ -66,9 +57,7 @@ is the info about the book in a binary as follows:
 
 ## To Do  
 
-- Write SVG layout code for the read_map.
-
-  Allow multiple Bible Servers which can be referenced by the version name.
+-  Allow multiple Bible Servers which can be referenced by the version name.
   Fix reference expansion to proper list John 3:5, John 3:7 as John 3:5,7. To do this, the reference needs to be generated as a bitmap and then expansion done. This will give the references in the correct order as well. Maybe this is called 'normalization' and is a special call.
 
   Thinking space here: Can John 3:5,7 be expanded to John 3:5; John 3:7 prior to generating the references. When a comma is found, collect from start of the reference to comma, less one level and place that at start of what's after the comma. Should change the expansion machine to handle lists of references. Need to add an accumulator list, then absorb the ',' and the ';' into the machine.
@@ -80,11 +69,6 @@ is the info about the book in a binary as follows:
 - Make all exp references work with multiple citations, or just 1.
 - Update testing with valid asserts
 - Add calls that accept list of reference structures where appropriate.
-
-## Done - Git Comments Here
-ReadServer is no longer a GenServer but simply a module.
-Added the MIT license.
-Working on 'read_map' SVG generation.
 
 ## Road Map
 Integrate Bible reading tracking into a website for users. Users ID is provided by the system and is the only information requested from the user except for what they read. No reason for saving confidential information. Unused accounts can be deleted after xx days. Codes could be like apple-wood-home. Users could select a code by pressing next to get a new one.

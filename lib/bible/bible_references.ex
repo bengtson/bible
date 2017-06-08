@@ -102,10 +102,10 @@ defmodule Bible.References do
     @doc """
     Given a list of reference strings, this returns a list of parsed references.
     """
-    def exp_bible_references(ref_strings) do
+    def exp_bible_references(ref_strings, info) do
       ref_strings
         |> String.split(";")
-        |> Enum.map(&(exp_bible_reference(&1)))
+        |> Enum.map(&(exp_bible_reference(&1, info)))
 #        |> IO.inspect
     end
 
@@ -113,7 +113,7 @@ defmodule Bible.References do
     Given a bible reference string and the bible metadata, this returns a
     map with the starting book:chapter:verse and ending book:chapter:verse.
     """
-    def exp_bible_reference(ref_string) do
+    def exp_bible_reference(ref_string, info) do
       parts = ref_string
       |> String.replace(",", " , ")
       |> String.replace("-", " - ")
@@ -124,7 +124,7 @@ defmodule Bible.References do
 
       exp_bible_next_part({nil,nil,nil,nil,nil,nil},
                           {:none,:start},
-                          {parts,ref_string})
+                          {parts,ref_string},info)
     end
 
     # -----------------------------
@@ -133,7 +133,7 @@ defmodule Bible.References do
 
     # If the list of parts is empty, then reference is complete. Generate the
     # map and return it.
-    defp exp_bible_next_part({a,b,c,d,e,f},_,{[],_}) do
+    defp exp_bible_next_part({a,b,c,d,e,f},_,{[],_}, _info) do
       %{ "Start Book" => a,
          "Start Chapter" => b,
          "Start Verse" => c,
@@ -144,89 +144,89 @@ defmodule Bible.References do
 
     # Get the next part in the list and call the state machine with the next
     # part and current state.
-    defp exp_bible_next_part({a,b,c,d,e,f},{lev,ran},{parts,ref}) do
-      { part, value, new_parts } = parts_type(parts)
-      exp_bible_machine({a,b,c,d,e,f},{lev,ran},{part,value},{new_parts,ref})
+    defp exp_bible_next_part({a,b,c,d,e,f},{lev,ran},{parts,ref}, info) do
+      { part, value, new_parts } = parts_type(parts, info)
+      exp_bible_machine({a,b,c,d,e,f},{lev,ran},{part,value},{new_parts,ref}, info)
     end
 
     # If the next part is a book and we have not set the level, then accept
     # the book name and create the reference.
-    defp exp_bible_machine(_,{:none,_},{:book,value},state) do
-      { :ok, chapter_count } = Bible.Server.get_chapter_count(value)
-      { :ok, verse_count } = Bible.Server.get_verse_count(value,chapter_count)
+    defp exp_bible_machine(_,{:none,_},{:book,value},state,info) do
+      { :ok, chapter_count } = Bible.Info.get_chapter_count(info, value)
+      { :ok, verse_count } = Bible.Info.get_verse_count(info, value,chapter_count)
       exp_bible_next_part({value,1,1,value,chapter_count,verse_count},
-                          {:book,:start},state)
+                          {:book,:start},state,info)
     end
 
     # -----------------------------
 
     # If the next part is a book and the range is :end, set the end to the
     # end of the specified book.
-    defp exp_bible_machine({a,b,c,_,_,_},{_,:end},{:book,value},state) do
-      { :ok, chapter_count } = Bible.Server.get_chapter_count(value)
-      { :ok, verse_count } = Bible.Server.get_verse_count(value,chapter_count)
+    defp exp_bible_machine({a,b,c,_,_,_},{_,:end},{:book,value},state,info) do
+      { :ok, chapter_count } = Bible.Info.get_chapter_count(info,value)
+      { :ok, verse_count } = Bible.Info.get_verse_count(info,value,chapter_count)
       exp_bible_next_part({a,b,c,value,chapter_count,verse_count},
-                          {:chapter,:end},state)
+                          {:chapter,:end},state,info)
     end
 
     # If the next part is a number and level is :book, range is :start, then
     # set the chapter for the start and the end verse to the last verse in
     # the chapter.
     defp exp_bible_machine({a,_,_,_,_,_},{:book,:start},
-                           {:number,value},state) do
-      { :ok, verse_count } = Bible.Server.get_verse_count(a,value)
+                           {:number,value},state,info) do
+      { :ok, verse_count } = Bible.Info.get_verse_count(info,a,value)
       exp_bible_next_part({a,value,1,a,value,verse_count},
-                          {:chapter,:start},state)
+                          {:chapter,:start},state,info)
     end
 
     # If the next part is a number and level is :book, range is :start, then
     # set the chapter for the start and the end verse to the last verse in
     # the chapter.
     defp exp_bible_machine({a,b,c,d,_,_},{:chapter,:end},
-                           {:number,value},state) do
-      { :ok, verse_count } = Bible.Server.get_verse_count(d,value)
-      exp_bible_next_part({a,b,c,d,value,verse_count},{:chapter,:end},state)
+                           {:number,value},state,info) do
+      { :ok, verse_count } = Bible.Info.get_verse_count(info,d,value)
+      exp_bible_next_part({a,b,c,d,value,verse_count},{:chapter,:end},state,info)
     end
 
     # If the next part is a chapter and range is :end, then
     # set the chapter for the end and the end verse to the last verse in
     # the chapter.
-    defp exp_bible_machine({a,b,c,d,_,_},{_,:end},{:chapter,value},state) do
-      { :ok, verse_count } = Bible.Server.get_verse_count(d,value)
-      exp_bible_next_part({a,b,c,d,value,verse_count},{:verse,:end},state)
+    defp exp_bible_machine({a,b,c,d,_,_},{_,:end},{:chapter,value},state,info) do
+      { :ok, verse_count } = Bible.Info.get_verse_count(info,d,value)
+      exp_bible_next_part({a,b,c,d,value,verse_count},{:verse,:end},state,info)
     end
 
     # If the next part is a chapter and level is :book, range is :start, then
     # set the chapter for the start and the end verse to the last verse in
     # the chapter.
     defp exp_bible_machine({a,_,_,_,_,_},{:book,:start},
-                           {:chapter,value},state) do
-      { :ok, verse_count } = Bible.Server.get_verse_count(a,value)
-      exp_bible_next_part({a,value,1,a,value,verse_count},{:verse,:start},state)
+                           {:chapter,value},state,info) do
+      { :ok, verse_count } = Bible.Info.get_verse_count(info,a,value)
+      exp_bible_next_part({a,value,1,a,value,verse_count},{:verse,:start},state,info)
     end
 
     # If the next part is a number and level is :chapter, range is :start, then
     # set the verse for the start and the end verse to the verse specified.
     defp exp_bible_machine({a,b,_,_,_,_},{:verse,:start},
-                           {:number,value},state) do
-      exp_bible_next_part({a,b,value,a,b,value},{:verse,:start},state)
+                           {:number,value},state,info) do
+      exp_bible_next_part({a,b,value,a,b,value},{:verse,:start},state,info)
     end
 
     # If the next part is a number and level is :verse, range is :end, then
     # set the verse for the end verse to the verse specified.
-    defp exp_bible_machine({a,b,c,d,e,_},{:verse,:end},{:number,value},state) do
-      exp_bible_next_part({a,b,c,d,e,value},{:verse,:end},state)
+    defp exp_bible_machine({a,b,c,d,e,_},{:verse,:end},{:number,value},state,info) do
+      exp_bible_next_part({a,b,c,d,e,value},{:verse,:end},state,info)
     end
 
     # If the next part is a hyphen, then change the range.
-    defp exp_bible_machine({a,b,c,d,e,f},{lev,:start},{:hyphen,_},state) do
-      exp_bible_next_part({a,b,c,d,e,f},{lev,:end},state)
+    defp exp_bible_machine({a,b,c,d,e,f},{lev,:start},{:hyphen,_},state,info) do
+      exp_bible_next_part({a,b,c,d,e,f},{lev,:end},state,info)
     end
 
     # If the next part is a colon, and we were at :chapter level then change
     # the level to verse.
-    defp exp_bible_machine({a,b,c,d,e,f},{_,ran},{:colon,_},state) do
-      exp_bible_next_part({a,b,c,d,e,f},{:verse,ran},state)
+    defp exp_bible_machine({a,b,c,d,e,f},{_,ran},{:colon,_},state,info) do
+      exp_bible_next_part({a,b,c,d,e,f},{:verse,ran},state,info)
     end
 
     # Returns an atom indicating what type of part is at the start of the
@@ -241,59 +241,59 @@ defmodule Bible.References do
     #   :other, unknown part, remaining parts
     #
 
-    def parts_type([":" | tail ]) do
+    def parts_type([":" | tail ], _info) do
       { :colon, nil, tail }
     end
-    def parts_type(["," | tail ]) do
+    def parts_type(["," | tail ], _info) do
       { :comma, nil, tail }
     end
-    def parts_type(["-" | tail ]) do
+    def parts_type(["-" | tail ], _info) do
       { :hyphen, nil, tail }
     end
 
     # This needs to do some recursion for three part names.
-    def parts_type(parts) do
-      parts_type_book_look(1, "", parts, parts)
+    def parts_type(parts, info) do
+      parts_type_book_look(1, "", parts, parts, info)
     end
 
     # When there are no more parts,
-    defp parts_type_book_look(_, _, [], parts) do
-      parts_type_number_look(parts)
+    defp parts_type_book_look(_, _, [], parts, info) do
+      parts_type_number_look(parts, info)
     end
 
     # When no book found, end recursion and look for a number.
-    defp parts_type_book_look(4, _, _, parts) do
-      parts_type_number_look(parts)
+    defp parts_type_book_look(4, _, _, parts, info) do
+      parts_type_number_look(parts, info)
     end
 
     # Appends next part to provided book name and checks. Some book names
     # are multiple parts so check up to 3 parts (Song of Solomon).
-    defp parts_type_book_look(n, bookname, [ tail_head | new_tail ], parts) do
+    defp parts_type_book_look(n, bookname, [ tail_head | new_tail ], parts, info) do
       bookname = bookname <> " " <> tail_head
       bookname = String.trim(bookname)
-      case Bible.Server.is_book?(bookname) do
+      case Bible.Info.is_book?(bookname,info) do
         true -> { :book, bookname, new_tail }
-        false -> parts_type_book_look(n+1, bookname, new_tail, parts)
+        false -> parts_type_book_look(n+1, bookname, new_tail, parts, info)
       end
     end
 
     # Matched only when there is one element in the tail.
-    defp parts_type_book_look(_, bookname, tail, parts) do
+    defp parts_type_book_look(_, bookname, tail, parts, info) do
       bookname = bookname <> " " <> tail
-      case Bible.Server.is_book?(bookname) do
+      case Bible.Info.is_book?(bookname, info) do
         true -> { :book, bookname, [] }
-        false -> parts_type_number_look(parts)
+        false -> parts_type_number_look(parts, info)
       end
     end
 
-    defp parts_type_number_look([ head | [ ":" | tail ]]) do
+    defp parts_type_number_look([ head | [ ":" | tail ]], _info) do
       case Integer.parse(head) do
         :error -> { :other, head, tail }
         { number, _ } -> { :chapter, number, tail }
       end
     end
 
-    defp parts_type_number_look(parts) do
+    defp parts_type_number_look(parts, _info) do
       [ head | tail ] = parts
       case Integer.parse(head) do
         :error -> { :other, head, tail }
@@ -301,25 +301,25 @@ defmodule Bible.References do
       end
     end
 
-    def reduce_references(refs) do
+    def reduce_references(refs, info) do
       refs
-        |> Enum.map(&(reduce_reference(&1)))
+        |> Enum.map(&(reduce_reference(&1, info)))
         |> Enum.join("; ")
     end
 
-    def reduce_reference({a,b,c,d,e,f}) do
+    def reduce_reference({a,b,c,d,e,f}, info) do
       reduce_reference(%{  "Start Book" => a,
           "Start Chapter" => b,
           "Start Verse" => c,
           "End Book" => d,
           "End Chapter" => e,
-          "End Verse" => f })
+          "End Verse" => f }, info)
     end
 
     @doc """
     Given a fully qualified reference such as that returned by exp_bible_reference, this will return a string reduced to the minimum reference.
     """
-    def reduce_reference(reference) do
+    def reduce_reference(reference, info) do
 #      reference = hd(reference)
       a = reference["Start Book"]
       b = reference["Start Chapter"]
@@ -331,8 +331,8 @@ defmodule Bible.References do
       # Calculate limits.
       bl = b == 1
       cl = c == 1
-      { :ok, chapter_count } = Bible.Server.get_chapter_count(d)
-      { :ok, verse_count } = Bible.Server.get_verse_count(d,e)
+      { :ok, chapter_count } = Bible.Info.get_chapter_count(info,d)
+      { :ok, verse_count } = Bible.Info.get_verse_count(info,d,e)
       el = e == chapter_count
       fl = f == verse_count
 
@@ -405,20 +405,20 @@ defmodule Bible.References do
     @doc """
     Takes a reference string, expands it then reduces it returning the reduced reference.
     """
-    def cycle_reference(reference) do
-      reduce_reference(exp_bible_reference(reference))
+    def cycle_reference(reference, info) do
+      reduce_reference(exp_bible_reference(reference, info), info)
     end
 
     @doc """
     Tests reference and reference reduction by iterating through the test cases
     associated with each reference variant.
     """
-    def references_test do
+    def references_test info do
       test_cases()
       |> String.split("\n")               # Get list of lines.
       |> Enum.filter(&(String.contains?(&1,"book")))
       |> Enum.map(&(String.slice(&1,57..-1)))
-      |> Enum.filter(&(&1 != cycle_reference(&1)))
+      |> Enum.filter(&(&1 != cycle_reference(&1, info)))
     end
 
 end

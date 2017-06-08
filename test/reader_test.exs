@@ -1,7 +1,6 @@
-defmodule Read.Server.Test do
+defmodule Reader.Test do
   use ExUnit.Case
   use Timex
-  doctest Bible.ReadServer
 
   setup_all do
     info = Bible.Info.get_bible_info("Z")
@@ -18,7 +17,7 @@ defmodule Read.Server.Test do
     start_date = Timex.to_date {2016, 1, 1}
     end_date = Timex.to_date {2016, 12, 31}
 
-    verse_count = Bible.Reader.load_readings_string(read)
+    verse_count = Bible.Reader.load_readings_string(read, state.info)
     |> Bible.Reader.filter_by_date({start_date,end_date})
     |> Bible.Reader.to_verse_map(state.info)
     |> Bible.Reader.verse_count
@@ -35,7 +34,7 @@ defmodule Read.Server.Test do
     start_date = Timex.to_date {2016, 10, 2}
     end_date = Timex.to_date {2016, 10, 2}
 
-    verse_count = Bible.Reader.load_readings_string(read)
+    verse_count = Bible.Reader.load_readings_string(read, state.info)
     |> Bible.Reader.filter_by_date({start_date,end_date})
     |> Bible.Reader.to_verse_map(state.info)
     |> Bible.Reader.verse_count
@@ -50,7 +49,7 @@ defmodule Read.Server.Test do
     """
 
     assert {879, 112} ==
-      Bible.Reader.load_readings_string(read)
+      Bible.Reader.load_readings_string(read, state.info)
       |> Bible.Reader.to_verse_map(state.info)
       |> Bible.Reader.reading_metrics("John", state.info)
 

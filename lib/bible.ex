@@ -1,5 +1,5 @@
 defmodule Bible do
-  use Application
+#  use Application
 
   @doc """
   Returns the number of chapters in the specified book of the Bible.
@@ -11,9 +11,9 @@ defmodule Bible do
       iex> Bible.chapters("Philippines")
       :error
   """
-  @spec chapters(binary) :: { :ok, integer } | :error
-  def chapters(book) do
-    Bible.Server.get_chapter_count(book)
+  @spec chapters(binary, map) :: { :ok, integer } | :error
+  def chapters(book, info) do
+    Bible.Info.get_chapter_count(info, book)
   end
 
   @doc """
@@ -26,30 +26,19 @@ defmodule Bible do
       iex> Bible.versus("Psalms", 155)
       :error
   """
-  @spec verses(binary,integer) :: { :ok, integer }
-  def verses(book,chapter) do
-    Bible.Server.get_verse_count(book,chapter)
+  @spec verses(map,binary,integer) :: { :ok, integer }
+  def verses(info,book,chapter) do
+    Bible.Info.get_verse_count(info,book,chapter)
   end
 
-  @spec is_book?(binary) :: boolean
-  def is_book?(book) do
-    Bible.Server.is_book?(book)
+  @spec is_book?(binary,map) :: boolean
+  def is_book?(book, info) do
+    Bible.Info.is_book?(book, info)
   end
 
-  def reference_verses(pid,references) do
-    Bible.ReadServer.reading_metrics(pid,references)
-  end
+#  def reference_verses(pid,references) do
+#    Bible.ReadServer.reading_metrics(pid,references)
+#  end
 
-  def start( _type, _args ) do
-    import Supervisor.Spec, warn: false
-
-    children = [
-      supervisor(Bible.Server, [Bible.Versions.ESV])
-#      supervisor(Bible.ReadServer, [])
-    ]
-
-    opts = [strategy: :one_for_one, name: Bible.Supervisor]
-    Supervisor.start_link(children, opts)
-  end
 
 end

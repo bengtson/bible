@@ -27,7 +27,7 @@ defmodule Bible.Reader do
 
   """
   def reading_metrics(readings, reference, info) do
-    ref = Bible.References.exp_bible_reference(reference)
+    ref = Bible.References.exp_bible_reference(reference, info)
     {start,stop} = Bible.Info.get_reference_range(info, ref)
     length = stop-start+1
     s1 = start-1
@@ -101,21 +101,21 @@ defmodule Bible.Reader do
 #      |> load_readings_string
 #  end
 
-  def load_bible_readings filepath do
-    load_file filepath
+  def load_bible_readings filepath, info do
+    load_file filepath, info
   end
 
-  def load_file(filepath) do
+  def load_file(filepath, info) do
     File.read!(filepath)
-      |> load_readings_string
+      |> load_readings_string(info)
   end
 
-  def load_readings_string (reads) do
+  def load_readings_string(reads, info) do
     reads
       |> String.split("\n")               # Get list of lines.
       |> Enum.filter(&(String.length(&1) > 0))
       |> Enum.map(&(String.split(&1," : ", parts: 2)))    # Have date and ref.
-      |> Enum.map(&(add_ref_days(&1)))            # Add reference into entry.
+      |> Enum.map(&(add_ref_days(&1, info)))            # Add reference into entry.
       |> Enum.sort(&(&1["Days"] <= &2["Days"]))
       |> Enum.map( fn map -> map["Readings"] end)
       |> Enum.join
@@ -124,23 +124,23 @@ defmodule Bible.Reader do
   # Change to accept a multi-reference line after date.
   # Need an entry in the map called Refs that is a list of maps for each
   # individual ref.
-  defp add_ref_days ([string_date,reading]) do
+  defp add_ref_days([string_date,reading], info) do
     string_date = String.trim(string_date)
     { :ok, date } = Timex.parse(string_date, "{D}-{Mshort}-{YYYY}")
     epoch_date = Timex.to_date {2000,1,1}
     days = Timex.diff(date,epoch_date,:days)
 
     refs =
-      Bible.References.exp_bible_references(reading)
-      |> Enum.map(&(add_book_number(&1,days)))
+      Bible.References.exp_bible_references(reading, info)
+      |> Enum.map(&(add_book_number(&1,days, info)))
       |> Enum.join
 
     %{"Days" => days, "Readings" => refs}
   end
 
-  defp add_book_number(ref,days) do
-    start_book_number = Bible.Server.get_book_number(ref["Start Book"],:in_bible)
-    end_book_number = Bible.Server.get_book_number(ref["End Book"],:in_bible)
+  defp add_book_number(ref,days, info) do
+    start_book_number = Bible.Info.get_book_number(info, ref["Start Book"],:in_bible)
+    end_book_number = Bible.Info.get_book_number(info, ref["End Book"],:in_bible)
 
     <<
       days :: unsigned-integer-size(16),
@@ -160,15 +160,14 @@ defmodule Bible.Reader do
     % To Target Last 365 days,
     [ Last 5 readings ] }
   """
-  def read_metrics filepath do
-    readings = Bible.ReadServer.load_bible_readings filepath
+  def read_metrics readings, info do
     end_date = Timex.now
     days_list = [1,7,30,365]
     target_attainment = days_list
       |> Enum.map(&(to_date_range(&1,end_date)))
-      |> Enum.map(&(Bible.ReadServer.filter_by_date(readings,&1)))
-      |> Enum.map(&(Bible.ReadServer.to_verse_map/1))
-      |> Enum.map(&(Bible.ReadServer.reading_metrics(&1, "Genesis - Revelation")))
+      |> Enum.map(&(Bible.Reader.filter_by_date(readings,&1)))
+      |> Enum.map(&(Bible.Reader.to_verse_map(&1, info)))
+      |> Enum.map(&(Bible.Reader.reading_metrics(&1, "Genesis - Revelation", info)))
       |> Enum.map(fn {total, read} -> read/total end)
       |> Enum.zip(days_list)
       |> Enum.map(fn {percent, days} -> {days, percent * 365 / days} end)
@@ -180,10 +179,10 @@ defmodule Bible.Reader do
           end_book_number :: unsigned-integer-size(8),
           end_chap :: unsigned-integer-size(8),
           end_vers :: unsigned-integer-size(8) <- readings >>, do:
-            { Bible.Server.get_book_name(start_book_number), start_chap, start_vers,
-              Bible.Server.get_book_name(end_book_number), end_chap, end_vers })
+            { Bible.Info.get_book_name(info, start_book_number), start_chap, start_vers,
+              Bible.Info.get_book_name(info, end_book_number), end_chap, end_vers })
         |> Enum.take(-5)
-        |> Enum.map(&(Bible.References.reduce_reference(&1)))
+        |> Enum.map(&(Bible.References.reduce_reference(&1, info)))
         |> Enum.reverse
       { target_attainment, latest }
   end
