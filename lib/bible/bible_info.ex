@@ -30,6 +30,11 @@ defmodule Bible.Info do
     |> Map.keys
   end
 
+  def get_book_count info do
+    get_books(info)
+    |> Enum.count
+  end
+
   def is_book?(book, info) do
     Map.has_key?(info["Metadata"],book)
   end
