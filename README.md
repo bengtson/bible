@@ -11,13 +11,11 @@ The Bible Metrics (bible_metrics) application provides functions related to the 
 ## Git Comments
 Development Snapshot
 
-Removed all SVG read map generation code.
-Changed Bible.Server to Bible.Info and dropped GenServer.
-Changed Bible.ReadServer to Bible.Reader and it's not a server.
-Restructured modules into a better folder structure.
+Fixed version selection so it doesn't default to ESV.
 
 ## Todo
 
+- API should use {:ok, value} for all calls?
 -- Remove Timex from library. Parsing is only issue.
 - info as argument inconsistent ... sometimes first, sometimes last in argument list.
 

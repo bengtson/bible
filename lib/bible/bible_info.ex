@@ -5,8 +5,8 @@ defmodule Bible.Info do
   Note that the information is meant to be used by the functions in the
   Bible.Info module.
   """
-  def get_bible_info version do
-    { _version_name, metadata } = new_load_metadata()
+  def get_bible_info version_module do
+    { _version_name, metadata } = new_load_metadata(version_module)
 
     book_number_map = gen_book_number_map(metadata)
       |> Enum.reduce(%{}, fn (map, acc) -> Map.merge(acc, map) end)
@@ -99,9 +99,9 @@ defmodule Bible.Info do
 
   end
 
-  defp new_load_metadata do
-    version = Bible.Versions.ESV.get_version
-    metadata = Bible.Versions.ESV.get_version_data
+  defp new_load_metadata version_module do
+    version = version_module.get_version
+    metadata = version_module.get_version_data
       |> String.split("\n")
       |> Enum.map(&(String.trim(&1)))
       |> Enum.drop_while(&(&1 == ""))             # Remove leading empty lines.

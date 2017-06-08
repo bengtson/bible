@@ -3,7 +3,7 @@ defmodule Reader.Test do
   use Timex
 
   setup_all do
-    info = Bible.Info.get_bible_info("Z")
+    info = Bible.Info.get_bible_info Bible.Versions.ESV
     {:ok, info: info}
   end
 
