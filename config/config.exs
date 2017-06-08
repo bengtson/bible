@@ -28,5 +28,3 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
-config :bible,
-  bible_readings_file: "/Users/bengm0ra/Projects/FileliF/Compendiums/Bible/Read List.txt"

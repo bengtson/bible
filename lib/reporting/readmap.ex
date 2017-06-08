@@ -44,10 +44,10 @@ defmodule Bible.Reporting.ReadMap do
     Bible.Reporting.ReadMap.read_map a
   """
 
-  def gen_svg_chart do
-    Bible.ReadServer.load_bible_readings
+  def gen_svg_chart filepath do
+    Bible.ReadServer.load_bible_readings(filepath)
     |> Bible.Reporting.ReadMap.read_map
-    Bible.Reporting.read_metrics
+    Bible.Reporting.read_metrics filepath
   end
 
   def read_map reading_list do
@@ -69,7 +69,7 @@ defmodule Bible.Reporting.ReadMap do
       |> draw_elements   # adds the svg position for each element
 #      |> generate_element_svg          # generates the svg
       |> svg_footer
-      |> write_svg
+#      |> write_svg
 #      |> IO.inspect
 
   end
@@ -236,17 +236,5 @@ defmodule Bible.Reporting.ReadMap do
     svg = EEx.eval_file(Path.expand("./svgtemplates/svg_footer.svg.eex"))
     Map.put(state,"svg",state["svg"] <> svg)
   end
-
-  def write_svg state do
-    filename = state["Output File"]
-#    IO.inspect filename
-    svg = state["svg"]
-#    IO.inspect svg
-    {:ok, file} = File.open "/Users/bengm0ra/Projects/FileliF/Elixir/bible/plotfiles/" <> filename, [:write]
-    IO.binwrite file, svg
-    File.close file
-    state
-  end
-
 
 end

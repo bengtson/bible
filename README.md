@@ -8,6 +8,21 @@ The Bible Metrics (bible_metrics) application provides functions related to the 
 * Determine how much of the Bible has been read given a reading list.
 * Determine what parts of the Bible have not been read given a reading list.
 
+## Git Comments
+Development Snapshot
+
+Changed fixed path for SVG chart to relative.
+Changed Bible.Server to Bible.Info and dropped GenServer.
+Changed Bible.ReadServer to Bible.Reader and it's not a server.
+Restructured modules into a better folder structure.
+
+## Todo
+
+- Remove the GenServer for bible. Just return a bible_info map that the user can track themselves.
+- Fix 'bible' so SVG can be generated and retrieved without generating a file.
+- Remove all SVG stuff from the Bible library.
+- Remove Timex from library. Parsing is only issue.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:

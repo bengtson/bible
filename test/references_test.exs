@@ -4,8 +4,8 @@ defmodule ReferencesTest do
   doctest Bible.References
 
   setup_all do
-    metadata = Bible.Server.get_metadata
-    {:ok, metadata: metadata}
+    info = Bible.Info.get_bible_info("Z")
+    {:ok, info: info}
   end
 
   test "part type colon" do

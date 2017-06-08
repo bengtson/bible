@@ -20,6 +20,10 @@ Leading and trailing spaces are ignored as well as blank lines.
     :esv
   end
 
+  def get_version_name do
+    "English Standard Version"
+  end
+
 @doc """
 Returns the data for the ESV version of the Bible.
 """

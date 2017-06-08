@@ -414,17 +414,11 @@ defmodule Bible.References do
     associated with each reference variant.
     """
     def references_test do
-      test_cases
+      test_cases()
       |> String.split("\n")               # Get list of lines.
       |> Enum.filter(&(String.contains?(&1,"book")))
       |> Enum.map(&(String.slice(&1,57..-1)))
       |> Enum.filter(&(&1 != cycle_reference(&1)))
     end
 
-    @doc """
-    Given a reference map, a verse map is returned.
-    """
-    def to_verse_map reference do
-      
-    end
 end

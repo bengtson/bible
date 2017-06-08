@@ -4,11 +4,11 @@ defmodule Read.Server.Test do
   doctest Bible.ReadServer
 
   setup_all do
-    metadata = Bible.Server.get_metadata
-    {:ok, metadata: metadata}
+    info = Bible.Info.get_bible_info("Z")
+    {:ok, info: info}
   end
 
-  test "New Readings Module Test" do
+  test "New Readings Module Test", state do
     read =
         """
           02-Oct-2016 : John 1-3
@@ -18,14 +18,14 @@ defmodule Read.Server.Test do
     start_date = Timex.to_date {2016, 1, 1}
     end_date = Timex.to_date {2016, 12, 31}
 
-    verse_count = Bible.ReadServer.load_readings_string(read)
-    |> Bible.ReadServer.filter_by_date({start_date,end_date})
-    |> Bible.ReadServer.to_verse_map
-    |> Bible.ReadServer.verse_count
+    verse_count = Bible.Reader.load_readings_string(read)
+    |> Bible.Reader.filter_by_date({start_date,end_date})
+    |> Bible.Reader.to_verse_map(state.info)
+    |> Bible.Reader.verse_count
     assert 116 == verse_count
   end
 
-  test "Check Setting Of Readings" do
+  test "Check Setting Of Readings", state do
     read =
         """
           02-Oct-2016 : John 1-3
@@ -35,14 +35,14 @@ defmodule Read.Server.Test do
     start_date = Timex.to_date {2016, 10, 2}
     end_date = Timex.to_date {2016, 10, 2}
 
-    verse_count = Bible.ReadServer.load_readings_string(read)
-    |> Bible.ReadServer.filter_by_date({start_date,end_date})
-    |> Bible.ReadServer.to_verse_map
-    |> Bible.ReadServer.verse_count
+    verse_count = Bible.Reader.load_readings_string(read)
+    |> Bible.Reader.filter_by_date({start_date,end_date})
+    |> Bible.Reader.to_verse_map(state.info)
+    |> Bible.Reader.verse_count
     assert 112 == verse_count
   end
 
-  test "Reading Metrics" do
+  test "Reading Metrics", state do
 
     read =
     """
@@ -50,9 +50,9 @@ defmodule Read.Server.Test do
     """
 
     assert {879, 112} ==
-      Bible.ReadServer.load_readings_string(read)
-      |> Bible.ReadServer.to_verse_map
-      |> Bible.ReadServer.reading_metrics("John")
+      Bible.Reader.load_readings_string(read)
+      |> Bible.Reader.to_verse_map(state.info)
+      |> Bible.Reader.reading_metrics("John", state.info)
 
   end
 

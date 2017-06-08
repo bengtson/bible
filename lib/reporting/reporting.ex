@@ -11,8 +11,8 @@ Defines some useful reporting from the bible database.
     % To Target Last 365 days,
     [ Last 5 readings ] }
   """
-  def read_metrics do
-    readings = Bible.ReadServer.load_bible_readings
+  def read_metrics filepath do
+    readings = Bible.ReadServer.load_bible_readings filepath
     end_date = Timex.now
     days_list = [1,7,30,365]
     target_attainment = days_list

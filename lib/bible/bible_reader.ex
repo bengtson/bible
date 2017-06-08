@@ -1,4 +1,4 @@
-defmodule Bible.ReadServer do
+defmodule Bible.Reader do
   use Timex
   @moduledoc """
   This module provides services related to what parts of the Bible
@@ -26,9 +26,9 @@ defmodule Bible.ReadServer do
   @doc """
 
   """
-  def reading_metrics(readings, reference) do
+  def reading_metrics(readings, reference, info) do
     ref = Bible.References.exp_bible_reference(reference)
-    {start,stop} = Bible.Server.get_ref_verse_range(ref)
+    {start,stop} = Bible.Info.get_reference_range(info, ref)
     length = stop-start+1
     s1 = start-1
     << <<_::bitstring-size(s1)>>,
@@ -64,8 +64,8 @@ defmodule Bible.ReadServer do
   #      |> Enum.reduce(<<0::size(total_verses)>>, fn (reading, acc) -> add_reading(acc, reading) end)
   #  end
 
-  def to_verse_map(readings) do
-    x = Bible.Server.get_total_verses
+  def to_verse_map(readings, info) do
+    x = Bible.Info.get_total_verse_count(info)
     for(<<  days :: unsigned-integer-size(16),
         start_book :: unsigned-integer-size(8),
         start_chap :: unsigned-integer-size(8),
@@ -75,16 +75,16 @@ defmodule Bible.ReadServer do
         end_vers :: unsigned-integer-size(8) <- readings >>, do:
           { days, start_book, start_chap, start_vers,
             end_book, end_chap, end_vers })
-    |>    Enum.reduce(<<0::size(x)>>, fn (reading, acc) -> add_reading(acc, reading) end)
+    |>    Enum.reduce(<<0::size(x)>>, fn (reading, acc) -> add_reading(acc, reading, info) end)
   end
 
   def verse_count(verse_map) do
     for(<< bit::size(1) <- verse_map >>, do: bit) |> Enum.sum
   end
 
-  defp add_reading(readings, reading) do
+  defp add_reading(readings, reading, info) do
     { _, a, b, c, d, e, f } = reading
-    { first_v, last_v } = Bible.Server.get_ref_verse_range({a,b,c,d,e,f})
+    { first_v, last_v } = Bible.Info.get_reference_range(info, {a,b,c,d,e,f})
     p1 = first_v - 1
     p2 = last_v - first_v + 1
     p3 = bit_size(readings) - last_v
@@ -151,6 +151,45 @@ defmodule Bible.ReadServer do
       ref["End Chapter"] :: unsigned-integer-size(8),
       ref["End Verse"] :: unsigned-integer-size(8)
     >>
+  end
+
+  @doc """
+  Returns the following results:
+  { % To Target Last 7 days,
+    % To Target Last 30 days,
+    % To Target Last 365 days,
+    [ Last 5 readings ] }
+  """
+  def read_metrics filepath do
+    readings = Bible.ReadServer.load_bible_readings filepath
+    end_date = Timex.now
+    days_list = [1,7,30,365]
+    target_attainment = days_list
+      |> Enum.map(&(to_date_range(&1,end_date)))
+      |> Enum.map(&(Bible.ReadServer.filter_by_date(readings,&1)))
+      |> Enum.map(&(Bible.ReadServer.to_verse_map/1))
+      |> Enum.map(&(Bible.ReadServer.reading_metrics(&1, "Genesis - Revelation")))
+      |> Enum.map(fn {total, read} -> read/total end)
+      |> Enum.zip(days_list)
+      |> Enum.map(fn {percent, days} -> {days, percent * 365 / days} end)
+
+      latest = for(<< _days :: unsigned-integer-size(16),
+          start_book_number :: unsigned-integer-size(8),
+          start_chap :: unsigned-integer-size(8),
+          start_vers :: unsigned-integer-size(8),
+          end_book_number :: unsigned-integer-size(8),
+          end_chap :: unsigned-integer-size(8),
+          end_vers :: unsigned-integer-size(8) <- readings >>, do:
+            { Bible.Server.get_book_name(start_book_number), start_chap, start_vers,
+              Bible.Server.get_book_name(end_book_number), end_chap, end_vers })
+        |> Enum.take(-5)
+        |> Enum.map(&(Bible.References.reduce_reference(&1)))
+        |> Enum.reverse
+      { target_attainment, latest }
+  end
+
+  defp to_date_range(days,end_date) do
+    {Timex.shift(end_date, days: -days+1),end_date}
   end
 
 end
