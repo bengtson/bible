@@ -1,5 +1,4 @@
 defmodule Bible.Reader do
-  use Timex
   @moduledoc """
   This module provides services related to what parts of the Bible
   have been read over periods of time. for example; the following information can be obtained:
@@ -14,6 +13,14 @@ defmodule Bible.Reader do
     ...
 
   These are all then put into a binary that has the following format:
+
+    <<days>> :: 16 bit unsigned : Days since Jan 1, 2000
+    <<start book>> :: 8 bit unsigned : Starting book number
+    <<start chapter>> :: 8 bit unsigned : Starting chapter number
+    <<start verse>> :: 8 bit unsigned : Starging chapter number
+    <<end book>> :: 8 bit unsigned : Ending book number
+    <<end chapter>> :: 8 bit unsigned : Ending chapter number
+    <<end verse>> :: 8 bit unsigned : Ending chapter number
 
     <<days since 1/1/2000>><<book>><<chap>><<verse>><<book>><<chap>><<verse>>
     ...
@@ -44,9 +51,9 @@ defmodule Bible.Reader do
   Returns a binary list of readings between the dates specified. Requires that a readings binary be provided.
   """
   def filter_by_date(readings, {start_date, end_date}) do
-    epoch_date = Timex.to_date {2000,1,1}
-    start_days = Timex.diff(start_date,epoch_date,:days)
-    end_days = Timex.diff(end_date,epoch_date,:days)
+    {:ok, epoch_date} = Date.new(2000,1,1)
+    start_days = Date.Temp.diff(start_date,epoch_date)
+    end_days = Date.Temp.diff(end_date,epoch_date)
 
     for(<<  days :: unsigned-integer-size(16),
         rest :: binary-size(6)
@@ -126,9 +133,10 @@ defmodule Bible.Reader do
   # individual ref.
   defp add_ref_days([string_date,reading], info) do
     string_date = String.trim(string_date)
-    { :ok, date } = Timex.parse(string_date, "{D}-{Mshort}-{YYYY}")
-    epoch_date = Timex.to_date {2000,1,1}
-    days = Timex.diff(date,epoch_date,:days)
+#    { :ok, date } = Timex.parse(string_date, "{D}-{Mshort}-{YYYY}")
+    { :ok, date } = Date.Temp.parse(string_date)
+    {:ok, epoch_date} = Date.new(2000,1,1)
+    days = Date.Temp.diff(date,epoch_date)
 
     refs =
       Bible.References.exp_bible_references(reading, info)
@@ -161,7 +169,8 @@ defmodule Bible.Reader do
     [ Last 5 readings ] }
   """
   def read_metrics readings, info do
-    end_date = Timex.now
+#    end_date = Timex.now
+    {:ok, end_date} = Date.Temp.now()
     days_list = [1,7,30,365]
     target_attainment = days_list
       |> Enum.map(&(to_date_range(&1,end_date)))
@@ -188,7 +197,8 @@ defmodule Bible.Reader do
   end
 
   defp to_date_range(days,end_date) do
-    {Timex.shift(end_date, days: -days+1),end_date}
+#    {Timex.shift(end_date, days: -days+1),end_date}
+    {Date.Temp.shift(end_date, days: -days+1),end_date}
   end
 
 end

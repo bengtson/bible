@@ -1,7 +1,6 @@
 defmodule Info.Test do
   use ExUnit.Case
-  use Timex
-
+  
   setup_all do
     info = Bible.Info.get_bible_info Bible.Versions.ESV
     {:ok, info: info}

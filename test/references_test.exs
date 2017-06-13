@@ -1,6 +1,5 @@
 defmodule ReferencesTest do
   use ExUnit.Case
-  use Timex
   doctest Bible.References
 
   setup_all do

@@ -15,7 +15,7 @@ defmodule Bible.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [
-      applications: [:logger, :tzdata, :fonts]
+      applications: [:logger]
     ]
   end
 
@@ -29,9 +29,7 @@ defmodule Bible.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:timex, "~> 3.0.8"},
-     {:earmark, "~> 1.0"},
-     {:ex_doc, "~> 0.14.1"},
-     {:fonts, github: "bengtson/fonts"}]
+    [{:earmark, "~> 1.0"},
+     {:ex_doc, "~> 0.14.1"}]
   end
 end

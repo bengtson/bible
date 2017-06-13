@@ -11,13 +11,12 @@ The Bible Metrics (bible_metrics) application provides functions related to the 
 ## Git Comments
 Development Snapshot
 
-Fixed version selection so it doesn't default to ESV.
+Removed Timex as a dependency.
 
 ## Todo
 
 - API should use {:ok, value} for all calls?
--- Remove Timex from library. Parsing is only issue.
-- info as argument inconsistent ... sometimes first, sometimes last in argument list.
+-- info as argument inconsistent ... sometimes first, sometimes last in argument list.
 
 ## Installation
 

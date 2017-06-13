@@ -1,6 +1,5 @@
 defmodule Reader.Test do
   use ExUnit.Case
-  use Timex
 
   setup_all do
     info = Bible.Info.get_bible_info Bible.Versions.ESV
@@ -14,8 +13,8 @@ defmodule Reader.Test do
           03-Oct-2016 : John 4:5-8
         """
 
-    start_date = Timex.to_date {2016, 1, 1}
-    end_date = Timex.to_date {2016, 12, 31}
+    {:ok, start_date} = Date.new 2016, 1, 1
+    {:ok, end_date} = Date.new 2016, 12, 31
 
     verse_count = Bible.Reader.load_readings_string(read, state.info)
     |> Bible.Reader.filter_by_date({start_date,end_date})
@@ -31,8 +30,8 @@ defmodule Reader.Test do
           03-Oct-2016 : John 4:5-8
         """
 
-    start_date = Timex.to_date {2016, 10, 2}
-    end_date = Timex.to_date {2016, 10, 2}
+    {:ok, start_date} = Date.new 2016, 10, 2
+    {:ok, end_date} = Date.new 2016, 10, 2
 
     verse_count = Bible.Reader.load_readings_string(read, state.info)
     |> Bible.Reader.filter_by_date({start_date,end_date})
