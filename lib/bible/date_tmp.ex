@@ -38,7 +38,7 @@ defmodule Date.Temp do
     end
   end
 
-  def shift date, days do
+  def shift date, [days: days] do
     {:ok, naive} = NaiveDateTime.new(date.year,date.month,date.day,0,0,0)
     shift = days * 60 * 60 * 24
     naive = NaiveDateTime.add(naive,shift)

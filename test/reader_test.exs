@@ -54,4 +54,19 @@ defmodule Reader.Test do
 
   end
 
+  test "Read Metrics", state do
+
+    read =
+    """
+      02-Oct-2016 : John 1-3
+    """
+
+    {_, [reading]} =
+      Bible.Reader.load_readings_string(read, state.info)
+      |> Bible.Reader.read_metrics(state.info)
+
+    assert "John 1-3" == reading
+
+  end
+
 end
