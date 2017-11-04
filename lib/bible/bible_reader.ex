@@ -92,14 +92,14 @@ defmodule Bible.Reader do
 
   def to_verse_map(readings, info) do
     x = Bible.Info.get_total_verse_count(info)
-    for(<<  days :: unsigned-integer-size(16),
+    for(<<  _days :: unsigned-integer-size(16),
         start_book :: unsigned-integer-size(8),
         start_chap :: unsigned-integer-size(8),
         start_vers :: unsigned-integer-size(8),
         end_book :: unsigned-integer-size(8),
         end_chap :: unsigned-integer-size(8),
         end_vers :: unsigned-integer-size(8) <- readings >>, do:
-          { days, start_book, start_chap, start_vers,
+          { start_book, start_chap, start_vers,
             end_book, end_chap, end_vers })
     |>    Enum.reduce(<<0::size(x)>>, fn (reading, acc) -> add_reading(acc, reading, info) end)
   end
@@ -109,7 +109,7 @@ defmodule Bible.Reader do
   end
 
   def add_reading(readings, reading, info) do
-    { _, a, b, c, d, e, f } = reading
+    { a, b, c, d, e, f } = reading
     { first_v, last_v } = Bible.Info.get_reference_range(info, {a,b,c,d,e,f})
     p1 = first_v - 1
     p2 = last_v - first_v + 1
