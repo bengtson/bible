@@ -26,11 +26,22 @@ defmodule Bible.Reader do
     ...
     ...
 
+  There is also a readings map which is a bitmap of all versions in the
+  provided version. A bit set indicates the verse has been read.
+
+
   Requires that the BibleServer is running.
   """
 
 
   @doc """
+  This returns the number of verses read and the number of verses in the
+  reference range provided.
+
+      info is the info from the Version.
+      reference is the string reference such as "John 1-5"
+      readings is a list of the reading entries in the internal format
+        shown above.
 
   """
   def reading_metrics(readings, reference, info) do
@@ -49,6 +60,9 @@ defmodule Bible.Reader do
 
   @doc """
   Returns a binary list of readings between the dates specified. Requires that a readings binary be provided.
+
+  Readings is a list of the readings in the internal compressed format shown
+  above.
   """
   def filter_by_date(readings, {start_date, end_date}) do
     {:ok, epoch_date} = Date.new(2000,1,1)
@@ -71,6 +85,11 @@ defmodule Bible.Reader do
   #      |> Enum.reduce(<<0::size(total_verses)>>, fn (reading, acc) -> add_reading(acc, reading) end)
   #  end
 
+  @doc """
+  Returns a verse map given a set of readings and a version (info). The map has a bit for every verse in the Bible version. Each verse that has been read
+  according to the readings will be set.
+  """
+
   def to_verse_map(readings, info) do
     x = Bible.Info.get_total_verse_count(info)
     for(<<  days :: unsigned-integer-size(16),
@@ -89,7 +108,7 @@ defmodule Bible.Reader do
     for(<< bit::size(1) <- verse_map >>, do: bit) |> Enum.sum
   end
 
-  defp add_reading(readings, reading, info) do
+  def add_reading(readings, reading, info) do
     { _, a, b, c, d, e, f } = reading
     { first_v, last_v } = Bible.Info.get_reference_range(info, {a,b,c,d,e,f})
     p1 = first_v - 1

@@ -112,6 +112,15 @@ defmodule Bible.References do
     @doc """
     Given a bible reference string and the bible metadata, this returns a
     map with the starting book:chapter:verse and ending book:chapter:verse.
+
+    An example is:
+
+        ref_string = "John 1:5-16"
+
+    which will return:
+
+    %{"End Book" => "John", "End Chapter" => 1, "End Verse" => 15,
+    "Start Book" => "John", "Start Chapter" => 1, "Start Verse" => 5}
     """
     def exp_bible_reference(ref_string, info) do
       parts = ref_string

@@ -4,7 +4,7 @@ defmodule Bible.Mixfile do
   def project do
     [app: :bible,
      version: "0.1.0",
-     elixir: "~> 1.3",
+     elixir: "~> 1.5",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps()]
@@ -29,7 +29,7 @@ defmodule Bible.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:earmark, "~> 1.0"},
-     {:ex_doc, "~> 0.14.1"}]
+    [{:earmark, "~> 1.2"},
+     {:ex_doc, "~> 0.18.1"}]
   end
 end

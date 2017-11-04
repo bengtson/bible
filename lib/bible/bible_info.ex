@@ -22,7 +22,7 @@ defmodule Bible.Info do
     %{ "Metadata" => metadata,
        "Book Number Map" => book_number_map,
        "Verse Count Map" => verse_count_map,
-       "Total Verses" => start_verse + verse_count}
+       "Total Verses" => start_verse + verse_count - 1}
   end
 
   def get_books(info) do
