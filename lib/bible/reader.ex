@@ -1,4 +1,4 @@
-defmodule Bible.Reader do
+defmodule Bible.NewReader do
   @moduledoc """
   This module provides services related to what parts of the Bible
   have been read over periods of time. for example; the following information can be obtained:
@@ -33,6 +33,11 @@ defmodule Bible.Reader do
   Requires that the BibleServer is running.
   """
 
+  defstruct [
+    :date,
+    :ref
+  ]
+
 
   @doc """
   This returns the number of verses read and the number of verses in the
@@ -64,26 +69,11 @@ defmodule Bible.Reader do
   Readings is a list of the readings in the internal compressed format shown
   above.
   """
-  def filter_by_date(readings, {start_date, end_date}) do
-    {:ok, epoch_date} = Date.new(2000,1,1)
-    start_days = Date.Temp.diff(start_date,epoch_date)
-    end_days = Date.Temp.diff(end_date,epoch_date)
-
-    for(<<  days :: unsigned-integer-size(16),
-        rest :: binary-size(6)
-        <- readings >>, do:
-          { days, rest })
-        |> Enum.filter(&(elem(&1,0) >= start_days && elem(&1,0) <= end_days))
-        |> Enum.map(fn {days, bin} -> << days :: unsigned-integer-size(16) >> <> bin end)
-        |> Enum.join
+  def filter_by_date(readings, start_date, end_date) do
+    readings
+    |> Enum.filter(fn r -> Date.compare(r.date,end_date) != :gt end)
+    |> Enum.filter(fn r -> Date.compare(r.date,start_date) != :lt end)
   end
-
-
-  #  def get_readings_between(readings, start_date, end_date, state) do
-  #    total_verses = state["Total Verses"]
-  #    filter_readings(readings, start_date, end_date)
-  #      |> Enum.reduce(<<0::size(total_verses)>>, fn (reading, acc) -> add_reading(acc, reading) end)
-  #  end
 
   @doc """
   Returns a verse map given a set of readings and a version (info). The map has a bit for every verse in the Bible version. Each verse that has been read
@@ -92,16 +82,8 @@ defmodule Bible.Reader do
 
   def to_verse_map(readings, info) do
     x = Bible.Info.get_total_verse_count(info)
-    for(<<  _days :: unsigned-integer-size(16),
-        start_book :: unsigned-integer-size(8),
-        start_chap :: unsigned-integer-size(8),
-        start_vers :: unsigned-integer-size(8),
-        end_book :: unsigned-integer-size(8),
-        end_chap :: unsigned-integer-size(8),
-        end_vers :: unsigned-integer-size(8) <- readings >>, do:
-          { start_book, start_chap, start_vers,
-            end_book, end_chap, end_vers })
-    |>    Enum.reduce(<<0::size(x)>>, fn (reading, acc) -> add_reading(acc, reading, info) end)
+    readings
+    |> Enum.reduce(<<0::size(x)>>, fn (reading, acc) -> add_reading(acc, reading, info) end)
   end
 
   def verse_count(verse_map) do
@@ -109,8 +91,8 @@ defmodule Bible.Reader do
   end
 
   def add_reading(readings, reading, info) do
-    { a, b, c, d, e, f } = reading
-    { first_v, last_v } = Bible.Info.get_reference_range(info, {a,b,c,d,e,f})
+#    { a, b, c, d, e, f } = reading
+    { first_v, last_v } = Bible.Info.get_reference_range(info, reading.ref)
     p1 = first_v - 1
     p2 = last_v - first_v + 1
     p3 = bit_size(readings) - last_v
@@ -128,23 +110,18 @@ defmodule Bible.Reader do
 #  end
 
   def load_bible_readings filepath, info do
-    load_file filepath, info
-  end
-
-  def load_file(filepath, info) do
     File.read!(filepath)
-      |> load_readings_string(info)
+    |> load_readings_string(info)
   end
 
-  def load_readings_string(reads, info) do
-    reads
+  def load_readings_string readings, info do
+    readings
       |> String.split("\n")               # Get list of lines.
       |> Enum.filter(&(String.length(&1) > 0))
       |> Enum.map(&(String.split(&1," : ", parts: 2)))    # Have date and ref.
-      |> Enum.map(&(add_ref_days(&1, info)))            # Add reference into entry.
-      |> Enum.sort(&(&1["Days"] <= &2["Days"]))
-      |> Enum.map( fn map -> map["Readings"] end)
-      |> Enum.join
+      |> Enum.map(&(add_ref_days(&1, info)))         # Add reference into entry.
+      |> List.flatten
+      |> Enum.sort(fn (a,b) -> a.date <= b.date end)
   end
 
   # Change to accept a multi-reference line after date.
@@ -152,33 +129,13 @@ defmodule Bible.Reader do
   # individual ref.
   defp add_ref_days([string_date,reading], info) do
     string_date = String.trim(string_date)
-#    { :ok, date } = Timex.parse(string_date, "{D}-{Mshort}-{YYYY}")
     { :ok, date } = Date.Temp.parse(string_date)
-    {:ok, epoch_date} = Date.new(2000,1,1)
-    days = Date.Temp.diff(date,epoch_date)
 
     refs =
       Bible.References.exp_bible_references(reading, info)
-      |> Enum.map(&(add_book_number(&1,days, info)))
-      |> Enum.join
-
-    %{"Days" => days, "Readings" => refs}
+      |> Enum.map(fn ref -> %Bible.NewReader{date: date, ref: ref} end)
   end
 
-  defp add_book_number(ref,days, info) do
-    start_book_number = Bible.Info.get_book_number(info, ref["Start Book"],:in_bible)
-    end_book_number = Bible.Info.get_book_number(info, ref["End Book"],:in_bible)
-
-    <<
-      days :: unsigned-integer-size(16),
-      start_book_number :: unsigned-integer-size(8),
-      ref["Start Chapter"] :: unsigned-integer-size(8),
-      ref["Start Verse"] :: unsigned-integer-size(8),
-      end_book_number :: unsigned-integer-size(8),
-      ref["End Chapter"] :: unsigned-integer-size(8),
-      ref["End Verse"] :: unsigned-integer-size(8)
-    >>
-  end
 
   @doc """
   Returns the following results:
@@ -193,31 +150,48 @@ defmodule Bible.Reader do
     days_list = [1,7,30,365]
     target_attainment = days_list
       |> Enum.map(&(to_date_range(&1,end_date)))
-      |> Enum.map(&(Bible.Reader.filter_by_date(readings,&1)))
-      |> Enum.map(&(Bible.Reader.to_verse_map(&1, info)))
-      |> Enum.map(&(Bible.Reader.reading_metrics(&1, "Genesis - Revelation", info)))
+      |> Enum.map(fn {sdate,edate} -> filter_by_date(readings,sdate,edate) end)
+#      |> Enum.map(&(Bible.Reader.filter_by_date(readings,&1)))
+      |> Enum.map(&(to_verse_map(&1, info)))
+      |> Enum.map(&(reading_metrics(&1, "Genesis - Revelation", info)))
       |> Enum.map(fn {total, read} -> read/total end)
       |> Enum.zip(days_list)
       |> Enum.map(fn {percent, days} -> {days, percent * 365 / days} end)
 
-      latest = for(<< _days :: unsigned-integer-size(16),
-          start_book_number :: unsigned-integer-size(8),
-          start_chap :: unsigned-integer-size(8),
-          start_vers :: unsigned-integer-size(8),
-          end_book_number :: unsigned-integer-size(8),
-          end_chap :: unsigned-integer-size(8),
-          end_vers :: unsigned-integer-size(8) <- readings >>, do:
-            { Bible.Info.get_book_name(info, start_book_number), start_chap, start_vers,
-              Bible.Info.get_book_name(info, end_book_number), end_chap, end_vers })
-        |> Enum.take(-5)
-        |> Enum.map(&(Bible.References.reduce_reference(&1, info)))
-        |> Enum.reverse
+#      latest = for(<< _days :: unsigned-integer-size(16),
+#          start_book_number :: unsigned-integer-size(8),
+#          start_chap :: unsigned-integer-size(8),
+#          start_vers :: unsigned-integer-size(8),
+#          end_book_number :: unsigned-integer-size(8),
+#          end_chap :: unsigned-integer-size(8),
+#          end_vers :: unsigned-integer-size(8) <- readings >>, do:
+#            { Bible.Info.get_book_name(info, start_book_number), start_chap, start_vers,
+#              Bible.Info.get_book_name(info, end_book_number), end_chap, end_vers })
+    latest =
+      readings
+      |> Enum.take(-5)
+      |> Enum.map(&(Bible.References.reduce_reference(&1.ref, info)))
+      |> Enum.reverse
       { target_attainment, latest }
   end
 
   defp to_date_range(days,end_date) do
 #    {Timex.shift(end_date, days: -days+1),end_date}
     {Date.Temp.shift(end_date, days: -days+1),end_date}
+  end
+
+  def t do
+    esv = Bible.Info.get_bible_info Bible.Versions.ESV
+    filepath = System.user_home <> "/Projects/FileliF/Compendiums/Bible/Read List.txt"
+    readings = load_bible_readings(filepath, esv)
+#    IO.inspect {:readings, readings}
+
+    {:ok, start_date} = Date.new(2017,11,03)
+    {:ok, end_date} = Date.new(2017,11,03)
+    IO.inspect {start_date, end_date}
+    r = filter_by_date(readings,start_date,end_date)
+#    IO.inspect {:filtered, r}
+
   end
 
 end

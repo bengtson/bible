@@ -74,6 +74,11 @@ defmodule Bible.References do
 
     """
 
+    defstruct [
+      :start_book, :start_chap, :start_vers,
+      :stop_book, :stop_chap, :stop_vers
+    ]
+
     @doc """
     Defines all possible variations for Bible references. This table is used to test all the cases.
     """
@@ -143,12 +148,9 @@ defmodule Bible.References do
     # If the list of parts is empty, then reference is complete. Generate the
     # map and return it.
     defp exp_bible_next_part({a,b,c,d,e,f},_,{[],_}, _info) do
-      %{ "Start Book" => a,
-         "Start Chapter" => b,
-         "Start Verse" => c,
-         "End Book" => d,
-         "End Chapter" => e,
-         "End Verse" => f }
+      %Bible.References{
+        start_book: a, start_chap: b, start_vers: c,
+        stop_book: d, stop_chap: e, stop_vers: f}
     end
 
     # Get the next part in the list and call the state machine with the next
@@ -281,7 +283,9 @@ defmodule Bible.References do
       bookname = bookname <> " " <> tail_head
       bookname = String.trim(bookname)
       case Bible.Info.is_book?(bookname,info) do
-        true -> { :book, bookname, new_tail }
+        true ->
+#          booknumber = Bible.Info.get_book_number(info, bookname, :in_bible)
+          { :book, bookname, new_tail }
         false -> parts_type_book_look(n+1, bookname, new_tail, parts, info)
       end
     end
@@ -330,12 +334,12 @@ defmodule Bible.References do
     """
     def reduce_reference(reference, info) do
 #      reference = hd(reference)
-      a = reference["Start Book"]
-      b = reference["Start Chapter"]
-      c = reference["Start Verse"]
-      d = reference["End Book"]
-      e = reference["End Chapter"]
-      f = reference["End Verse"]
+      a = reference.start_book
+      b = reference.start_chap
+      c = reference.start_vers
+      d = reference.stop_book
+      e = reference.stop_chap
+      f = reference.stop_vers
 
       # Calculate limits.
       bl = b == 1

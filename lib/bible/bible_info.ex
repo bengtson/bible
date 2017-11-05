@@ -49,13 +49,14 @@ defmodule Bible.Info do
   end
 
   def get_reference_range(info,ref) do
-    book = ref["Start Book"]
-    chapter = ref["Start Chapter"]
-    verse = ref["Start Verse"]
+    book = ref.start_book
+    chapter = ref.start_chap
+    verse = ref.start_vers
     start_verse = get_verse_index(info, book, chapter, verse)
-    book = ref["End Book"]
-    chapter = ref["End Chapter"]
-    verse = ref["End Verse"]
+
+    book = ref.stop_book
+    chapter = ref.stop_chap
+    verse = ref.stop_vers
     end_verse = get_verse_index(info, book, chapter, verse)
     {start_verse,end_verse}
   end
@@ -127,12 +128,7 @@ defmodule Bible.Info do
     {book_name, info_bin} = get_book_info_binary(book_info)
     verses_bin = get_book_verses_binary(verse_counts)
     bin = info_bin <> verses_bin
-    map = %{ book_name => bin }
-#    IO.inspect map
-#    [ book_info | [ verse_counts | tail ]] = book_entry
-#    IO.inpsect book_info
-#    IO.inspect verse_counts
-    map
+    %{ book_name => bin }
   end
 
   defp gen_book_number_map(metadata) do
@@ -227,8 +223,5 @@ defmodule Bible.Info do
       |> Enum.sum
     verse_start + verses_in_prior_chapters + verse - 1
   end
-
-
-
 
 end
