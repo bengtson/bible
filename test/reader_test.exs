@@ -16,10 +16,10 @@ defmodule Reader.Test do
     {:ok, start_date} = Date.new 2016, 1, 1
     {:ok, end_date} = Date.new 2016, 12, 31
 
-    verse_count = Bible.NewReader.load_readings_string(read, state.info)
-    |> Bible.NewReader.filter_by_date(start_date,end_date)
-    |> Bible.NewReader.to_verse_map(state.info)
-    |> Bible.NewReader.verse_count
+    verse_count = Bible.Reader.load_readings_string(read, state.info)
+    |> Bible.Reader.filter_by_date(start_date,end_date)
+    |> Bible.Reader.to_verse_map(state.info)
+    |> Bible.Reader.verse_count
     assert 116 == verse_count
   end
 
@@ -33,10 +33,10 @@ defmodule Reader.Test do
     {:ok, start_date} = Date.new 2016, 10, 2
     {:ok, end_date} = Date.new 2016, 10, 2
 
-    verse_count = Bible.NewReader.load_readings_string(read, state.info)
-    |> Bible.NewReader.filter_by_date(start_date,end_date)
-    |> Bible.NewReader.to_verse_map(state.info)
-    |> Bible.NewReader.verse_count
+    verse_count = Bible.Reader.load_readings_string(read, state.info)
+    |> Bible.Reader.filter_by_date(start_date,end_date)
+    |> Bible.Reader.to_verse_map(state.info)
+    |> Bible.Reader.verse_count
     assert 112 == verse_count
   end
 
@@ -48,9 +48,9 @@ defmodule Reader.Test do
     """
 
     assert {879, 112} ==
-      Bible.NewReader.load_readings_string(read, state.info)
-      |> Bible.NewReader.to_verse_map(state.info)
-      |> Bible.NewReader.reading_metrics("John", state.info)
+      Bible.Reader.load_readings_string(read, state.info)
+      |> Bible.Reader.to_verse_map(state.info)
+      |> Bible.Reader.reading_metrics("John", state.info)
 
   end
 
@@ -62,8 +62,8 @@ defmodule Reader.Test do
     """
 
     {_, [reading]} =
-      Bible.NewReader.load_readings_string(read, state.info)
-      |> Bible.NewReader.read_metrics(state.info)
+      Bible.Reader.load_readings_string(read, state.info)
+      |> Bible.Reader.read_metrics(state.info)
 
     assert "John 1-3" == reading
 

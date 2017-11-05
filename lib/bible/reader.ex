@@ -1,4 +1,4 @@
-defmodule Bible.NewReader do
+defmodule Bible.Reader do
   @moduledoc """
   This module provides services related to what parts of the Bible
   have been read over periods of time. for example; the following information can be obtained:
@@ -133,7 +133,7 @@ defmodule Bible.NewReader do
 
     refs =
       Bible.References.exp_bible_references(reading, info)
-      |> Enum.map(fn ref -> %Bible.NewReader{date: date, ref: ref} end)
+      |> Enum.map(fn ref -> %Bible.Reader{date: date, ref: ref} end)
   end
 
 
