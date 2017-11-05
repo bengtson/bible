@@ -108,7 +108,11 @@ defmodule Bible.Reader do
 #    File.read!(Application.fetch_env!(:bible, :bible_readings_file))
 #      |> load_readings_string
 #  end
-
+  @doc """
+  The reading list is an ordered list of all recorded bible readings. It is
+  sorted from earliest to latest. Each entry in the list is the Bible.Reader
+  structure.
+  """
   def load_bible_readings filepath, info do
     File.read!(filepath)
     |> load_readings_string(info)
@@ -121,7 +125,7 @@ defmodule Bible.Reader do
       |> Enum.map(&(String.split(&1," : ", parts: 2)))    # Have date and ref.
       |> Enum.map(&(add_ref_days(&1, info)))         # Add reference into entry.
       |> List.flatten
-      |> Enum.sort(fn (a,b) -> a.date <= b.date end)
+      |> Enum.sort_by(&(Date.to_erl(&1.date)))
   end
 
   # Change to accept a multi-reference line after date.
