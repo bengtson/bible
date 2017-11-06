@@ -173,7 +173,7 @@ Returns the data for the ESV version of the Bible.
       024
       N 08 47 013 2 Corinthians
       024 017 018 018 021 018 016 024 015 018 033 021 013
-      N 09 48 006 Galations
+      N 09 48 006 Galatians
       024 021 029 031 026 018
       N 10 49 006 Ephesians
       023 022 021 032 033 024
